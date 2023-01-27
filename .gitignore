@@ -1,4 +1,4 @@
 /cache/upload/*.xlsx
-/cache/upload/*.csv
+/cache/output/*.csv
 /cache/barcodes/*.xml
 key.php
