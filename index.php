@@ -145,7 +145,7 @@ require("key.php");
 
 
 
-import url(http://fonts.googleapis.com/css?family=Expletus+Sans);
+import url(//fonts.googleapis.com/css?family=Expletus+Sans);
 
 /* Basic resets */
 
@@ -186,7 +186,7 @@ h2 {
 
     <div class="reformed-form">
       <h1>Inventory Report <small>Fill in form and submit</small></h1>
-    	<form method="post" name="ShelfLister" id="ShelfLister" action="<?php echo 'http://' . $_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']) . 'process_barcodes.php'; ?>" enctype="multipart/form-data">
+    	<form method="post" name="ShelfLister" id="ShelfLister" action="process_barcodes.php" enctype="multipart/form-data">
     		<dl>
     			<dt>
     				<label for="flie">Barcode XLSX FIle:</label>
